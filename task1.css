@@ -1,0 +1,294 @@
+
+
+.First_Image {
+	background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.head{
+	display: flex;
+	justify-content:space-between;
+	padding: 10px 0;
+}
+
+.headrogo{
+	height: 20px;
+	transition: all 0.2s;
+}
+
+.headrogo:hover {
+	opacity: 0.8;
+}
+
+.head span {
+	display: block;
+}
+
+.Header_List {
+	text-align: right;
+	display: flex;
+}
+
+.Header_Item span:first-child {
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.Header_Item {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 25px;
+
+}
+
+.HeaderNav {
+	color: black;
+	text-decoration: none;
+}
+
+.FirstView_Content {
+	width: fit-content;
+
+}
+
+.Title {
+	text-align: center;
+	font-size:38px;
+}
+
+.btn {
+	background-color:#f79214;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding: 20px 25px;
+	display: inline-block;
+	border-radius:30px;
+	text-align: center;
+	transition: all .2s;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn2 {
+	background-color: white;
+	border: 1px solid #e0e0e0;
+	color: black;
+	
+}
+
+.top_btn {
+	font-size: 12px;
+	padding:10px 20px;
+}
+
+.FirstView {
+	margin: 0 135px;
+}
+
+.FirstView p{
+	color:#a2a2a4;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 70px 0 28px 0;
+}
+
+.FirstView img {
+	vertical-align: middle;
+}
+
+.FirstView_Image {
+	margin-bottom: 25px;
+}
+
+
+
+/*Potepan Canpについて*/
+
+.About_Wrapper {
+	background-color: #f79214;
+	padding: 44px 135px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.About_video {
+	width: 50%;
+}
+
+.About {
+	color: white;
+	margin-left:32px;
+	
+}
+
+.About h2 {
+	font-size: 38px;
+	font-weight: 900;
+}
+
+.About p {
+	font-size: 16px;
+}
+
+.About_Btn {
+	text-decoration: none;
+	color: white;
+}
+
+.FixedFooter img {
+	max-width: 367px;
+	position: fixed;
+	bottom:0;
+	right:0;
+	z-index: 1;
+}
+
+/*スマートフォン用設定*/
+@media (max-width:767px) {
+	.head {
+		position: fixed;
+		background-color: white;
+		width: 100%;
+	}
+	
+	
+	.First_Image {
+		background-image: none;
+	}
+	
+	.FirstView {
+		margin: 0 auto;
+		background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: top ;
+	}
+	
+	.FirstView_Content {
+		width: 100%;
+		padding-top: 60vw;
+	}
+	.Header_List {
+		display: none
+	}
+	
+	.SP_Header_List {
+		background-color: rgba(0,0,0,0.8);
+		position: fixed;
+		top:38px;
+		right: 100%;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		list-style: none;
+		padding: 0;
+	}
+	
+	.SP_HeaderNav {
+		color: #f79214;
+		text-decoration: none;
+		font-size: 12px;
+		letter-spacing: 2px
+	}
+	
+	.SP_HeaderNav span:first-child {
+		color: white;
+		font-size: 16px;
+		letter-spacing: 5px;
+	}
+	
+	.SP_HeaderNav span {
+		display: block;
+	}
+	
+	.SP_Header_Item {
+		padding: 20px 0;
+	}
+	
+	.FirstView_SmallImage {
+		width: 27.5%
+	}
+	.FirstView_BigImage {
+		width: 40%;
+	}
+	.FirstView_Image {
+		display: flex;
+		justify-content:space-between;
+	}
+	.Title {
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.btn2 {
+		display: none;
+	}
+	.btn1 {
+		width: 100%;
+		padding: 20px 0;
+	}
+	.About_Wrapper {
+		flex-direction: column;
+		padding: 20px 20px;
+	}
+	.About_video {
+		width: 100%;
+	}
+	
+	
+}
+
+/*特徴*/
+/*
+.Fuature_Wrapper {
+	text-align: center;
+	margin: 120px 0;
+	
+}
+
+.Fuature_List{
+	background-color: #fcfaf5;
+	border-radius: 20px;
+	margin: 0 135px;
+}
+
+.Fuature_Wrapper h2 {
+	font-size: 46px;
+	line-height: 30px;
+}
+
+.Fuature_Explanation {
+	font-size: 19px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.Fuature_Nomber {
+	font-size: 40px;
+	font-weight: 700;
+	color: #f79214;
+	
+}
+
+.Fuature_Despriction {
+	font-size: 16px;
+}
+
+.Fuature_Caption {
+	font-size: 12px;
+	color: #a2a2a4;
+}
+
+.CareerChange_Image img{
+	width: calc((100% - 20px)/2)
+}
+*/
