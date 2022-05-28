@@ -150,7 +150,9 @@
 	right:0;
 	z-index: 1;
 }
-
+.SP_Navi {
+	display: none;
+}
 /*スマートフォン用設定*/
 @media (max-width:767px) {
 	.head {
@@ -176,8 +178,13 @@
 		width: 100%;
 		padding-top: 60vw;
 	}
+	
 	.Header_List {
 		display: none
+	}
+	
+	.SP_Navi {
+		display: block;
 	}
 	
 	.SP_Header_List {
@@ -218,28 +225,35 @@
 	.FirstView_SmallImage {
 		width: 27.5%
 	}
+	
 	.FirstView_BigImage {
 		width: 40%;
 	}
+	
 	.FirstView_Image {
 		display: flex;
 		justify-content:space-between;
 	}
+	
 	.Title {
 		font-size: 25px;
 		line-height: 36px;
 	}
+	
 	.btn2 {
 		display: none;
 	}
+	
 	.btn1 {
 		width: 100%;
 		padding: 20px 0;
 	}
+	
 	.About_Wrapper {
 		flex-direction: column;
 		padding: 20px 20px;
 	}
+	
 	.About_video {
 		width: 100%;
 	}
