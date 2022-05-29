@@ -258,7 +258,28 @@
 		width: 100%;
 	}
 	
+	.Header_Hamburger {
+		margin-right:10vw;
+		width: 30px;
+		cursor:pointer;
+		height:21px;
+		z-index: 100;
+	}
 	
+	.Hamburger {
+		height: 3px;
+		background-color:black;
+		border-radius: 10px;
+		display: block;
+		
+	}
+	
+	.Hamburger:first-child {
+		margin-bottom:7px;
+	}
+	.Hamburger:last-child {
+		margin-top:7px;
+	}
 }
 
 /*特徴*/
